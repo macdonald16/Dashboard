@@ -46,6 +46,56 @@ const Dashboard = () => {
 </div>
     <div className="bg-purple-200 rounded-3xl p-4  ">
       <h1 className="pb-4 text-2xl">Highest ACoS campaigns</h1>
+      <div className="bg-purple-200 rounded-3xl p-4">
+  <h1 className="pb-4 text-2xl">Highest ACoS campaigns</h1>
+
+  <table className="border-collapse text-center" style={{ width: "100%" }}>
+    <thead>
+      <tr>
+        <th className="p-2">Campaign</th>
+        <th className="p-2">ACoS</th>
+        <th className="p-2">Spend</th>
+        <th className="p-2">Sales</th>
+        <th className="p-2">Orders</th>
+        <th className="p-2">CTR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="p-2">B08NY93MT</td>
+        <td className="p-2">15%</td>
+        <td className="p-2">$500</td>
+        <td className="p-2">$1,000</td>
+        <td className="p-2">10</td>
+        <td className="p-2">5%</td>
+      </tr>
+      <tr>
+        <td className="p-2">Research</td>
+        <td className="p-2">20%</td>
+        <td className="p-2">$400</td>
+        <td className="p-2">$800</td>
+        <td className="p-2">8</td>
+        <td className="p-2">4%</td>
+      </tr>
+      <tr>
+        <td className="p-2">B087C75QQJ</td>
+        <td className="p-2">12%</td>
+        <td className="p-2">$600</td>
+        <td className="p-2">$1,200</td>
+        <td className="p-2">12</td>
+        <td className="p-2">6%</td>
+      </tr>
+      <tr>
+        <td className="p-2">House Number</td>
+        <td className="p-2">18%</td>
+        <td className="p-2">$450</td>
+        <td className="p-2">$900</td>
+        <td className="p-2">9</td>
+        <td className="p-2">4.5%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
      
     
     </div>
