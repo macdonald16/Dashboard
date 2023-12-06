@@ -28,7 +28,7 @@ import {
               <span className="p-2 text-yellow-200">
                 <AiOutlineSearch />
               </span>
-              <h1 className="text-yellow-200 p-1">Search for anything jhhjhhhere</h1>
+              <h1 className="text-yellow-200 p-1">Search for anything here</h1>
             </div>
             <div className="grid grid-cols-3">
               <div
