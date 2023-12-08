@@ -9,27 +9,27 @@ export default function SideNav() {
 </div>
     <div className="flex-1  ">
     <div className="pt-8">
-    <AiOutlineDribbble  size={20} /> 
+    <AiOutlineDribbble  size={30} /> 
     </div>
     <div className="pt-8">
-    <AiOutlinePoundCircle  size={20} /> 
+    <AiOutlinePoundCircle  size={30} /> 
     </div>
     <div className="pt-8">
-    <AiOutlineSketch   size={20} /> 
+    <AiOutlineSketch   size={30} /> 
     </div>
     <div className="pt-8">
-    <AiOutlineTeam   size={20} /> 
+    <AiOutlineTeam   size={30} /> 
     </div>
     <div className="pt-8">
-    <AiOutlineSetting   size={20} /> 
+    <AiOutlineSetting   size={30} /> 
     </div>
     <div className="pt-8">
-    <AiOutlineInfoCircle   size={20} /> 
+    <AiOutlineInfoCircle   size={30} /> 
     </div>
    
      </div>
     <div>
-    <AiOutlineLogout size={20} />
+    <AiOutlineLogout size={30} />
     
      </div>
       
