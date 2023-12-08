@@ -6,101 +6,83 @@ const Dashboard = () => {
 
 {/* first cards */}
 
-  <div className="grid grid-cols-3 text-black font-bold gap-12 ">
-    <div className="bg-green-200 rounded-3xl p-4">
-      <h1 className="pb-4 text-2xl">Summary</h1>
-      <div className="grid grid-rows-4 gap-2">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-black font-bold gap-12 ">
+  <div className="bg-green-200 rounded-3xl p-4">
+    <h1 className="pb-4 text-2xl">Summary</h1>
+    <div className="grid grid-rows-4 gap-2">
       <h1 className="bg-purple-300 rounded-xl p-2 flex items-center">
-  Overview 
-  <span className="bg-purple-200 px-2 rounded-xl ml-auto">1,552</span>
-</h1>
+        Overview
+        <span className="bg-purple-200 px-2 rounded-xl ml-auto">1,552</span>
+      </h1>
 
       <h1 className="bg-blue-300 rounded-xl p-2 flex items-center">
-  Campaigns 
-  <span className="bg-purple-200 px-2 rounded-xl ml-auto">1,552</span>
-</h1>
+        Campaigns
+        <span className="bg-purple-200 px-2 rounded-xl ml-auto">1,552</span>
+      </h1>
 
       <h1 className="bg-cyan-300 rounded-xl p-2 flex items-center">
-  Ad Group 
-  <span className="bg-purple-200 px-2 rounded-xl ml-auto">1,552</span>
-</h1>
+        Ad Group
+        <span className="bg-purple-200 px-2 rounded-xl ml-auto">1,552</span>
+      </h1>
 
       <h1 className="bg-yellow-200 rounded-xl p-2 flex items-center">
-  Keywords 
-  <span className="bg-purple-200 px-2 rounded-xl ml-auto">1,552</span>
-</h1>
-
-
-      </div>
-    
+        Keywords
+        <span className="bg-purple-200 px-2 rounded-xl ml-auto">1,552</span>
+      </h1>
     </div>
-    <div className="bg-cyan-100 rounded-3xl p-4  flex flex-col justify-end">
-  <h1 className="pb-4 text-2xl">Top 5 products by spend</h1>
-  <p className="font-normal text-center">Total Score</p>
-  <h1 className="text-3xl text-center">2,985</h1>
-
-  <div className="bg-cyan-200 rounded-xl px-2 mt-auto ">
-    <h1 className="">$1,815.67</h1>
-    <p className="font-normal">B07MCGRV7M</p>
   </div>
-</div>
-    <div className="bg-purple-200 rounded-3xl p-4  ">
+
+  <div className="bg-cyan-100 rounded-3xl p-4 flex flex-col justify-end">
+    <h1 className="pb-4 text-2xl">Top 5 products by spend</h1>
+    <p className="font-normal text-center">Total Score</p>
+    <h1 className="text-3xl text-center">2,985</h1>
+
+    <div className="bg-cyan-200 rounded-xl px-2 mt-auto">
+      <h1 className="">$1,815.67</h1>
+      <p className="font-normal">B07MCGRV7M</p>
+    </div>
+  </div>
+
+  <div className="bg-purple-200 rounded-3xl p-4">
+    <h1 className="pb-4 text-2xl">Highest ACoS campaigns</h1>
+    <div className="bg-purple-200 rounded-3xl p-4">
       <h1 className="pb-4 text-2xl">Highest ACoS campaigns</h1>
-      <div className="bg-purple-200 rounded-3xl p-4">
-  <h1 className="pb-4 text-2xl">Highest ACoS campaigns</h1>
 
-  <table className="border-collapse text-center" style={{ width: "100%" }}>
-    <thead>
-      <tr>
-        <th className="p-2">Campaign</th>
-        <th className="p-2">ACoS</th>
-        <th className="p-2">Spend</th>
-        <th className="p-2">Sales</th>
-        <th className="p-2">Orders</th>
-        <th className="p-2">CTR</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td className="p-2">B08NY93MT</td>
-        <td className="p-2">15%</td>
-        <td className="p-2">$500</td>
-        <td className="p-2">$1,000</td>
-        <td className="p-2">10</td>
-        <td className="p-2">5%</td>
-      </tr>
-      <tr>
-        <td className="p-2">Research</td>
-        <td className="p-2">20%</td>
-        <td className="p-2">$400</td>
-        <td className="p-2">$800</td>
-        <td className="p-2">8</td>
-        <td className="p-2">4%</td>
-      </tr>
-      <tr>
-        <td className="p-2">B087C75QQJ</td>
-        <td className="p-2">12%</td>
-        <td className="p-2">$600</td>
-        <td className="p-2">$1,200</td>
-        <td className="p-2">12</td>
-        <td className="p-2">6%</td>
-      </tr>
-      <tr>
-        <td className="p-2">House Number</td>
-        <td className="p-2">18%</td>
-        <td className="p-2">$450</td>
-        <td className="p-2">$900</td>
-        <td className="p-2">9</td>
-        <td className="p-2">4.5%</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-     
-    
+      <div className="overflow-x-auto">
+        <table className="border-collapse text-center" style={{ width: "100%" }}>
+          <thead>
+            <tr>
+              <th className="p-2">Campaign</th>
+              <th className="p-2">ACoS</th>
+              <th className="p-2">Spend</th>
+              <th className="p-2">Sales</th>
+              <th className="p-2">Orders</th>
+              <th className="p-2">CTR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="p-2">B08NY93MT</td>
+              <td className="p-2">15%</td>
+              <td className="p-2">$500</td>
+              <td className="p-2">$1,000</td>
+              <td className="p-2">10</td>
+              <td className="p-2">5%</td>
+            </tr>
+            <tr>
+              <td className="p-2">Research</td>
+              <td className="p-2">20%</td>
+              <td className="p-2">$400</td>
+              <td className="p-2">$800</td>
+              <td className="p-2">8</td>
+              <td className="p-2">4%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-  
   </div>
+</div>
   {/* another cards */}
 
 
