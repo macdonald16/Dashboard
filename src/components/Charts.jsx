@@ -10,7 +10,7 @@ const Charts = () => {
             <div>
                 <h1 >CHART 2</h1>
             </div>
-
+ 
         </div>
         
     </div>

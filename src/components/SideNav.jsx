@@ -3,8 +3,8 @@ import { AiOutlineDribbble, AiOutlineLogout,AiOutlinePoundCircle,AiOutlineSketch
 
 export default function SideNav() {
   return (
-    <div className="bg-black text-yellow-200 w-30 p-3  flex flex-col m-2">
-    <div className="border border-yellow-200 rounded-full">
+    <div className="bg-black text-[#FDF7E4] w-30 p-3  flex flex-col m-2">
+    <div className="border border-[#FDF7E4] rounded-full">
   <h1 className="text-3xl px-2">S</h1>
 </div>
     <div className="flex-1  ">
