@@ -1,4 +1,5 @@
 import { IoMdArrowUp } from "react-icons/io";
+import Employees from "./Employees";
 
 
 const Dashboard = () => {
@@ -138,7 +139,7 @@ const Dashboard = () => {
 </div>
 
 </div>
-
+<Employees/>
 </div>
   )
 }
