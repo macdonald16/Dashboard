@@ -8,7 +8,7 @@ const Employees = () => {
     return (
       <div className="mt-4 bg-gray-400 rounded-xl">
 
-        <div className="text-white grid grid-cols-5 mx-auto justify-between border-b p-4">
+        <div className="text-white grid grid-cols-5 mx-auto justify-between border-b p-4 font-bold text-xl">
           <div className="px-4 ">Department</div>
           <div className="px-4">Employees</div>
           <div className="px-4">Deadline</div>
@@ -48,11 +48,11 @@ const Employees = () => {
       </div>
     </div>
   </div>
-  <div className="p-4 ">
-    <h1 className="flex text-xl font-semibold gap-4">
+  <div className="p-4 items-center justify-center text-center">
+    {/* <h1 className="flex text-xl font-semibold gap-4">
       <span><AiOutlineUser size={25} /></span> 1,126
     </h1>
-    <h2 className=" text-2xl font-semibold">27% <br/> <span className="font-normal text-lg">On Staff</span></h2>
+    <h2 className=" text-2xl font-semibold">27% <br/> <span className="font-normal text-lg">On Staff</span></h2> */}
   </div>
   <div className="grid grid-cols-3">
   <div className="items-center justify-center border-l border-r text-center">
